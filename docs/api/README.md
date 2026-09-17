@@ -18,7 +18,9 @@ GET /api/rankings?categoryId={id}
 
 POST /api/admin/login
 
-GET /api/admin/participants
+GET /api/admin/dashboard
+
+GET /api/admin/participants?query={phoneOrNickname}
 
 POST /api/admin/participants/{id}/passes
 
